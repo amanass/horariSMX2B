@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #96efff, #3538ffc2);
+    height: 100vh;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+}
+.container {
+    margin: 20px auto;
+    width: 80%;
+}
+h1 {
+    margin-bottom: 5px;
+}
+h2 {
+    margin: 5px 0;
+    font-weight: normal;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #afaeae;
+}
+td {
+    color: black;
+    font-weight: bold;
+}
+
+/* Colores de las materias */
+.MP04   { background-color: #dbe1db; }
+.MP06   { background-color: #f7f0c4; }
+.MP07   { background-color: #e7c886; }
+.MP08   { background-color: #c3c5c4; }
+.MP10   { background-color: #e4f6ce; }
+.MP12   { background-color: #fcfcd4; }
+.T      { background-color: #b4b4b3; }
+.bla    { background-color: #d4fffd; }
+
+
+.legend {
+    margin-top: 20px;
+}
+
+.legend table {
+    margin: 0 auto;
+}
+.legend td {
+    text-align: left;
+    padding: 5px 10px;
+}
+.derecha {
+    text-align: right;
+}
+
+.legend table tr:nth-child(2) td {
+    background-color: rgb(189, 227, 245);
+  }
+.legend table tr:nth-child(odd) {
+    background-color: rgb(248, 248, 212);
+  }
+.legend table tr:last-child td {
+    background-color: rgb(165, 255, 106);
+  }
